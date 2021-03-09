@@ -13,8 +13,8 @@
   },
   "rules": {
       
-      "no-unused-expressions":"off"
-
+      "no-unused-expressions":"off",
+      "linebreak-style": ["error", "windows"]
   }
 
 }
