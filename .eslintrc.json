@@ -1,0 +1,20 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true
+  },
+  "extends": [
+      "airbnb-base"
+  ],
+  "ignorePatterns": ["/cypress/integration/examples/*.js","/lib","stats.json"],
+  "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+  },
+  "rules": {
+      
+      "no-unused-expressions":"off",
+      "linebreak-style": ["error", "windows"]
+  }
+
+}
