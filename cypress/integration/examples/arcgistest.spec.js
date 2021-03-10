@@ -15,7 +15,7 @@ describe('Arcgis Tests', () => {
               netgisurl: 'https://snetigma.netcad.com.tr/Netgissvn',
             });
   
-            const routingwspromise = cy.wrap(netgisspserver.getWorkspace('BELNETMAP6BDZ'), { timeout: 100000 });
+            const routingwspromise = cy.wrap(netgisspserver.getWorkspace('BELNETMAP6BDZ'), { timeout: 200000 });
             let wsfilter;
             const netgisadded2 = routingwspromise.then((ws) => {
               map.addWorkspace(ws,
