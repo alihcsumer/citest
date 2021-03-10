@@ -15,6 +15,7 @@
       
       "no-unused-expressions":"off",
       "linebreak-style": ["error", "windows"]
+
   }
 
 }
