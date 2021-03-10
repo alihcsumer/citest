@@ -1,7 +1,5 @@
-const main = () => 'hello world';
+const main = (name) => `hello ${name}`;
 
-console.log('aaa');
+const a = 'world';
 
-const a = 2;
-
-main();
+main(a);
